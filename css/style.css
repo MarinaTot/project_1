@@ -90,9 +90,6 @@ header {
   height: 100vh;
   border-bottom: 3px solid black; }
   .around-img img {
-    margin: 0 auto;
-    top: 20vh;
-    height: 400px;
     border: 60px solid rgba(39, 57, 57, 0.85);
     border-right: 400px solid rgba(41, 56, 49, 0.46); }
     .around-img img p {
@@ -103,6 +100,10 @@ header {
       padding-top: 8px;
       padding: 48px;
       font-size: 1.1em; }
+  .around-img p {
+    letter-spacing: 1px;
+    width: 12%;
+    margin: auto; }
 
 /*  ----------   FOOTER   ---------- */
 footer {
@@ -192,6 +193,11 @@ footer {
     font-family: "Times New Roman", Times, serif;
     color: white;
     column-count: 1; }
+
+  .about-img {
+    max-width: 100%; }
+    .about-img p {
+      max-width: 100%; }
 
   .footer-list {
     display: flex;
